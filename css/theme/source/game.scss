@@ -1,0 +1,97 @@
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #222;
+
+$mainColor: #fff;
+$headingColor: #fff;
+
+$mainFontSize: 26px;
+$mainFont: 'Source Code Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+.reveal p {
+	text-align: left;
+	position: relative;
+	width: 1260px;
+	left: -150px;
+}
+
+.reveal .space {
+	width: 300px;
+}
+
+.reveal {
+	#wake, #apartment2, #call-charlie, #call-charlie2 {
+		p {
+			top: 480px;
+		}
+	}
+	#apartment1 {
+		p {
+			top: 560px;
+		}
+
+	}
+	#choice1 {
+		p {
+			top: 460px;
+		}
+		li {
+			top: 450px;
+		}
+	}
+	#call-backup {
+		font-size: 22px;
+		p {
+			top: 460px;
+
+		}
+		li {
+			top: 450px;
+		}
+	}
+}
+
+.reveal li {
+	list-style-type: none;
+	text-align: left;
+	width: 1260px;
+	position: relative;
+	left: -180px;
+	margin: 10px 0;
+}
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
