@@ -11,20 +11,26 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal .space {
   width: 300px; }
 
-.reveal #wake p, .reveal #apartment2 p, .reveal #call-charlie p, .reveal #call-charlie2 p {
+.reveal section p {
   top: 480px; }
 .reveal #apartment1 p {
   top: 560px; }
-.reveal #choice1 p {
+.reveal .choice li {
   top: 460px; }
-.reveal #choice1 li {
-  top: 450px; }
 .reveal #call-backup {
   font-size: 22px; }
   .reveal #call-backup p {
     top: 460px; }
-  .reveal #call-backup li {
-    top: 450px; }
+.reveal #call-charlie4 {
+  font-size: 22px; }
+  .reveal #call-charlie4 p {
+    top: 460px; }
+.reveal #outside-lab2, .reveal #inside-lab7 {
+  font-size: 22px; }
+.reveal #inside-lab, .reveal #inside-lab2, .reveal #inside-lab3, .reveal #inside-lab5 {
+  font-size: 20px; }
+.reveal #inside-lab4 {
+  font-size: 18px; }
 
 .reveal li {
   list-style-type: none;

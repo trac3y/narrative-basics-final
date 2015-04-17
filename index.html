@@ -47,7 +47,7 @@
 					<h1>Intro Video</h1>
 				</section>
 
-				<section id="wake" data-background="images/apartment3.jpg">
+				<section id="wake" data-background="images/trying.jpg">
 					<p id="text">
 						You wake up, dazed and confused. Everything was just a blur and you’re still coming to grips with reality. Dr. Franklin Albert just came into your house and stole your little girl from you. As you regain your strength after gaining consciousness you look your apartment, or at least what used to be your apartment. Everything is just ruined. You check the time.
 					</p>
@@ -63,24 +63,24 @@
 					</p>
 				</section>
 
-				<section id="choice1" data-background="images/apartment.jpg">
+				<section id="choice1" class="choice" data-background="images/apartment.jpg">
 					<p id="text">But, that is something you’ll need to put in the back of your head for now. You need to find Susan. What do you do?</p>
 					<p id="choices">
 						<ul>
-							<li><span><a href="#/choice1"><i class="fa fa-long-arrow-right"></i></a> Look by yourself.</span></li>
-							<li><span><a href="#/call-backup"><i class="fa fa-long-arrow-right"></i></a> Call for backup.</span></li>
+							<li><span><a href="#/choice1"><i class="fa fa-long-arrow-right"></i> Look by yourself.</span></a></li>
+							<li><span><a href="#/call-backup"><i class="fa fa-long-arrow-right"></i> Call for backup.</span></a></li>
 						</ul>
 					</p>
 				</section>
 
-				<section id="call-backup" data-background="images/apartment.jpg">
+				<section id="call-backup" class="choice" data-background="images/apartment.jpg">
 					<p>
 						Panicking won’t solve anything, you know that. Now is the time to come up with a carefully thought out plan and calling for backup might be your best option. You notice a note on the refrigerator; the number of your partner, Detective Charlie Danton. Calling Charlie might be helpful, he’s always had your back and told you to call him if you ever needed help. But will he be enough? The police might be a better option.
 					</p>
 					<p class="choices">
 						<ul>
-							<li><span><a href="#/call-charlie"><i class="fa fa-long-arrow-right"></i></a> Call Charlie.</span></li>
-							<li><span><a href="#/call-backup"><i class="fa fa-long-arrow-right"></i></a> Call the police.</span></li>
+							<li><span><a href="#/call-charlie"><i class="fa fa-long-arrow-right"></i> Call Charlie.</span></a></li>
+							<li><span><a href="#/call-backup"><i class="fa fa-long-arrow-right"></i> Call the police.</span></a></li>
 						</ul>
 					</p>
 				</section>
@@ -98,70 +98,99 @@
 					<p class="fragment">Jordan: “Please Charlie! My baby, they’ve taken her.”</p>
 				</section>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
+				<section id="call-charlie3" data-background="images/apartment.jpg">
+					<p>Charlie: “Woah woah, slow down and take it easy. What’s happening?”</p>
+					<p class="fragment">Jordan: “Albert. Dr. Franklin Albert is out of jail. He came into my apartment with some thugs, kidnapped Susan, and put this thing on me. Some type of time device or something…”</p>
+					<p class="fragment">Charlie: “Shit… Alright, don’t worry. I’ll be over in a bit.””</p>
+				</section>
+
+				<section id="call-charlie4" class="choice" data-background="images/apartment.jpg">
+					<p>Jordan: “No, I’ll be able to handle this. I just need you to tell me where I might be able to find Albert. There might still be some useful information at the Albert Industries lab that your team raided that night. Do you know where it is?”</p>
+					<p>Charlie: “Yeah, it’s over on the western side of town. I can send you the address, but Jordan, you’re gonna need some help on this one.  Let me come with you.”</p>
+					<p id="choices">
+						<ul>
+							<li><span><a href="#/call-charlie4"><i class="fa fa-long-arrow-right"></i> Decline Charlie's help</span></a></li>
+							<li><span><a href="#/accepted-help"><i class="fa fa-long-arrow-right"></i> Accept Charlie's help</span></a></li>
+						</ul>
 					</p>
 				</section>
 
-				<section id="themes">
-					<h2>Themes</h2>
+				<section id="accepted-help" data-background="images/apartment.jpg">
+					<p>You know that this is dangerous and the fact that having Charlie onboard could not only put him in harm’s way, but also potentially endanger Susan’s life if Albert caught wind that you were receiving help. However, this might be your best bet to saving her life.</p>
+					<p class="fragment">Jordan: “Okay, I accept. I’ll meet you at the lab in 30 min.”</p>
+				</section>
+
+				<section id="traffic" data-background="images/city_traffic.jpg">
+					<p>Lights and other vehicles seem to race by as you speed your way through Downtown to get to the lab. Hopefully Susan is safe and that deranged man hasn’t done anything to harm her.</p>
+				</section>
+
+				<section id="outside-lab" data-background="images/lab_exterior.jpg">
+					<p>You arrive at the exterior of a broken down lab. The building has an electronic Police Tape barrier around it, keeping all those without proper clearance out of the building. Charlie is already at the entrance, smoking a cigarette and looking off down the street until he notices you.</p>
+					<p class="fragment">Charlie: “Hey, there you are. Let’s hurry up and get inside. I’m sure there’ll be something at least somewhat useful in here.”</p>
+				</section>
+
+				<section id="outside-lab2" data-background="images/lab_exterior.jpg">
+					<p>Charlie pulls out his Badge, clearing him from the Police Tape.</p>
+					<p class="fragment">Jordan: “You have clearance for this building?”</p>
+					<p class="fragment">Charlie: “I was just put on this case again. The department wants to know why Albert Industries were performing the experiments and who exactly was behind them in addition to gathering any research material that we can find. Don’t know why the sudden interest after so long.”</p>
+				</section>
+
+				<section id="inside-lab" data-background="images/lab_interior.jpg">
+					<p>You walk into the building and find the map of the lab facility on a wall that serves as a directory. There is a lab on the 4th floor that reads “Temporal Research and Development”.</p>
+					<p class="fragment">Jordan: “Are we headed for the 4th floor then? The time lab is up there.”</p>
+					<p class="fragment">Charlie: “No, there’s useful information about time travel in that lab, but not what we’re looking for. The basement is our best bet. That’s where the human experiments took place."</p>
+					<p class="fragment">Jordan: “That’d make sense, but how do we get down there? Doesn’t seem like there’s a basement level on the map, so the elevator probably won’t go down there.”</p>
+				</section>
+
+				<section id="inside-lab2" data-background="images/lab_interior.jpg">
+					<p>Charlie begins to walk towards the elevator. The door is slightly open and he is able to push them apart easily. Charlie pokes open a hatch that is on the ceiling of the elevator and climbs through.</p>
+					<p class="fragment">Charlie: *yelling* “Well, are you coming?”</p>
+					<p class="fragment">You walk into the elevator and climb through the hatch. The elevator shaft is much larger than you expected. You turn around to see Charlie descending a ladder into the darkness.</p>
+				</section>
+
+				<section id="inside-lab3" data-background="images/lab_interior2.jpg">
+					<p>Charlie: “Watch your step.”</p>
+					<p class="fragment">Jordan: “How deep is this shaft…?”</p>
+					<p class="fragment">Charlie: “Let’s just say dropping down wouldn’t be too good for your health. Come on.”</p>
+					<p class="fragment">The two of you climb down the shaft and eventually get to the bottom, where a wide open elevator door leads you into Albert Industries Human Experimentation division did their work on time devices.</p>
+				</section>
+
+				<section id="inside-lab4" data-background="images/lab_interior2.jpg">
+					<p>Jordan: “Charlie, let’s not waste time. Let’s start looking.”</p>
 					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+						The two of you fan out and look for something that might help you out. You decide to look for Joseph Albert’s office. The head researcher and son of Albert must have information that could help with your search. You find his office in shambles, with papers and other assorted documents scattered along the ground and an older model Holodesk computer console on his desk. You take a seat in his chair and roll up to the desk.
+					</p>
+					<p class="fragment">Jordan: “Pretty old-fashioned, keeping all of these papers and files. And this computer doesn’t seem to have worked in ages…”</p>
+				</section>
+
+				<section id="inside-lab5" data-background="images/lab_interior2.jpg">
+					<p>
+						It seems as though the only information you’ll be getting is out of one of these papers. You pull away from the desk, but then you notice something you brushed up against. You look under to find a drawer with a broken lock. Inside was a schematic on a device that looks similar to the one you are wearing. Much of the functionality is similar to what Albert had told you before. You notice that on the back of the device there is a small square hole close to the bottom right of the device. You continue reading: “Device strapped to wearer and secured to ensure device is not lose during time travel. KEY WILL BE PROVIDED TO HANDLER. If wearer is captured and/or killed, they will be brought back to the point of activation.”
 					</p>
 				</section>
 
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
+				<section id="inside-lab6" data-background="images/lab_interior2.jpg">
+					<p>Jordan: “This thing… It seems to be a weapon. Were they going to sell this?”</p>
+					<p>But at least you found some useful information. The device you have will stay on until you find its key, which is most likely with Albert. To get this thing off of you and save Susan, you’ll have to find him.</p>
 				</section>
 
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				<section id="inside-lab7" data-background="images/lab_interior2.jpg">
+					<p>Suddenly, you hear a noise. Sounds like voices and they aren’t coming from Charlie.</p>
+					<p class="fragment">Charlie: *whispers* “Jordan, we have to go! Did you find anything?”</p>
+					<p class="fragment">Jordan: “Nothing about where Albert might be. I need more time.”</p>
+					<p class="fragment">Charlie: “I have no idea who these guys are and they don’t sound like anyone from the department. We might be in some serious trouble if we don’t leave.”</p>
 				</section>
+
+				<section id="inside-lab8" class="choice" data-background="images/lab_interior2.jpg">
+					<p>You look down at your standard issue handgun. You have enough ammo to take them out but will it be worth risking your life just for the extra information?</p>
+					<p id="choices">
+						<ul>
+							<li><span><a href="#/left-lab"><i class="fa fa-long-arrow-right"></i> Leave. Look for info somewhere else.</span></a></li>
+							<li><span><a href="#/inside-lab8"><i class="fa fa-long-arrow-right"></i> Stay. You might get more information from the mysterious people and the lab.</span></a></li>
+						</ul>
+					</p>
+				</section>
+
 
 				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
 					<h2>Background Transitions</h2>

@@ -50,7 +50,7 @@ section.has-light-background {
 }
 
 .reveal {
-	#wake, #apartment2, #call-charlie, #call-charlie2 {
+	section {
 		p {
 			top: 480px;
 		}
@@ -61,12 +61,9 @@ section.has-light-background {
 		}
 
 	}
-	#choice1 {
-		p {
-			top: 460px;
-		}
+	.choice {
 		li {
-			top: 450px;
+			top: 460px;
 		}
 	}
 	#call-backup {
@@ -75,9 +72,21 @@ section.has-light-background {
 			top: 460px;
 
 		}
-		li {
-			top: 450px;
+	}
+	#call-charlie4 {
+		font-size: 22px;
+		p {
+			top: 460px;
 		}
+	}
+	#outside-lab2, #inside-lab7 {
+		font-size: 22px;
+	}
+	#inside-lab, #inside-lab2, #inside-lab3, #inside-lab5 {
+		font-size: 20px;
+	}
+	#inside-lab4 {
+		font-size: 18px;
 	}
 }
 
